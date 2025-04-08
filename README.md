@@ -37,6 +37,10 @@ Note : Sans cette activation, les requêtes vers l'API TextRazor seront bloquée
    ```bash
    git clone hhttps://github.com/aldo990/sentiment_analyzer
    cd sentiment_analyzer
+   
+## 🖼️ Aperçu de l'application
+
+![Aperçu de l'application](public/screenshot.png)
 
 ## Membre du groupe
 
