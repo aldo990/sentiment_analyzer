@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# 🧠 Analyse de Sentiment avec TextRazor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est une petite application React permettant d’analyser le **sentiment** d’un texte en utilisant l’API **TextRazor**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ⚙️ Fonctionnalités
 
-### `npm start`
+- Analyse de sentiment (positif, négatif, neutre)
+- Extraction des entités présentes dans le texte
+- Affichage du score et du taux de confiance
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+⚠️ Important : Autoriser le proxy CORS Anywhere
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Pour que l’application fonctionne correctement, elle utilise le service CORS Anywhere afin de contourner les restrictions de sécurité liées aux requêtes cross-origin.
 
-### `npm test`
+Étapes à suivre :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Accéder au site de CORS Anywhere :
 
-### `npm run build`
+    👉 https://cors-anywhere.herokuapp.com/corsdemo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Demander un accès temporaire :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Sur la page, cliquez sur le bouton "Request temporary access to the demo server".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Laisser l’onglet ouvert :
 
-### `npm run eject`
+    Après avoir cliqué, ne fermez pas l’onglet. Laissez-le ouvert en arrière-plan pendant que vous utilisez l’application.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Note : Sans cette activation, les requêtes vers l'API TextRazor seront bloquées, entraînant des erreurs lors de l'analyse.
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Démarrage rapide
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clonez ce dépôt :
+   ```bash
+   git clone hhttps://github.com/aldo990/sentiment_analyzer
+   cd sentiment_analyzer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Membre du groupe
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+AKOWAKOU AMOUR
+SANVI MOREL
+KPANOU ALDO
